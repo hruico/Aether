@@ -1,0 +1,29 @@
+.header-logo {
+    display: flex;
+    height: 100%;
+    width: 20%;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.logo-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 100%;
+    margin-top: 0.4rem;
+}
+
+.header-logo-text {
+    font-size: x-large;
+    margin-bottom: 1.3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.logo-icons a img {
+    height: 1.5rem;
+    width: 1.5rem;
+    filter: invert(42%) sepia(93%) saturate(1352%) hue-rotate(190deg) brightness(119%) contrast(119%);
+}

@@ -1,0 +1,127 @@
+.ai-popup-chat {
+    height: 88%;
+    width: 20%;
+    position: sticky;
+    right: 0%;
+    top: 10%;
+    margin-right: 0% 1%;
+    /* overflow: hidden; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 1.5%;
+}
+
+.chat-interface {
+    background-color: rgb(255, 255, 255, 0.025);
+    border: 1px solid rgba(8, 240, 240, 0.143);
+    width: 90%;
+    height: 9%;
+    border-radius: 10px;
+    /* position: relative; */
+    padding: 0rem;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30%;
+}
+
+.upload-file-btn {
+    background: transparent;
+    border: none;
+    padding: 0;
+    /* margin: 0 6%; */
+
+}
+
+.upload-file-btn p {
+    padding: 0;
+    margin: 0;
+    color: rgb(0, 217, 255);
+    font-size: 1.2rem;
+}
+
+.chat-interface input {
+    color: rgba(255, 255, 255, 0.598);
+    font-size: small;
+    font-weight: lighter;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 4% 5%;
+    outline: none;
+    border: none;
+    background: transparent;
+    margin-bottom: 2%;
+}
+
+
+.cnvx-sent-btn {
+    background: transparent;
+    border: none;
+    width: 13%;
+    padding: 0px;
+}
+
+.chat-options {
+    display: flex;
+    max-width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cnvx-sent-btn img {
+    margin: 0px;
+    height: 1.2rem;
+    width: 1.2rem;
+    filter: invert(42%) sepia(93%) saturate(1352%) hue-rotate(190deg) brightness(119%) contrast(119%);
+}
+
+.ai-chatbar-options a {
+    display: flex;
+    align-items: center;
+    /* justify-content: ; */
+    text-decoration: none;
+    text-emphasis: none;
+    color: rgb(107, 111, 112);
+    gap: 2px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.ai-chatbar-options a img {
+    margin: 0px;
+    height: 0.7rem;
+    width: 0.7rem;
+    filter: invert(42%) sepia(93%) saturate(1352%) hue-rotate(190deg) brightness(119%) contrast(119%);
+}
+
+.ai-chatbar-options a span {
+    font-size: 0.7rem;
+}
+
+.chatbar-endButtons {
+    width: 15%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.conversations {
+    height: 80%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    font-size: 0.6rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgba(255, 255, 255, 0.647);
+}
+
+.user-chats {
+    margin: 0.1rem;
+    max-width: 100%;
+    height: auto;
+    /* text-align: end; */
+    border: 1px solid rgba(39, 76, 145, 0.368);
+    padding: 3px;
+    color: rgb(62, 147, 178);
+    background-color: rgb(255, 255, 255, 0.05);
+}
